@@ -1,0 +1,27 @@
+html, body {
+	font-family: 'Alegreya Sans', sans-serif;
+	overflow-x: hidden;
+	background-color: #494649;
+	color: white;
+}
+
+.navbar-custom{
+    background-color:black;
+}
+
+.card{
+	background-color: rgba(73, 70, 73, 0);
+	margin: 0 auto;
+	float: none;
+	margin-bottom: 10px;
+}
+
+#download{
+	background-color: black;
+}
+
+.btn {
+	background-color: #1ded8c;
+	border: #1ded8c;
+	color: black;
+}
