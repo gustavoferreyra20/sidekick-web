@@ -26,10 +26,7 @@
                         <a class="nav-link" href="#download">Descargar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre nosostros</a>
+                        <a class="nav-link" href="#Info">Info</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contacto</a>
@@ -42,7 +39,7 @@
 
     <div class="container my-5">
 
-        <div class="card mb-3 border-0"  style="width:800px; margin:0 auto;">
+        <div class="card mb-3 border-0">
           <div class="row no-gutters">
 
             <div class="col-md-4">
@@ -129,6 +126,28 @@
         </div>
       </div>
     </div>
+
+        <div class="container my-5" id="Info">
+          <h1>Info</h1>
+
+                
+        <div class="card mb-3 border-0" style="max-width: 688px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+            <img src="img/gustavo.jpeg"  class="card-img" alt="gustavo" >
+            </div>
+            <div class="col-md-8">
+            <div class="card-body">
+                        <h5 class="card-title">Gustavo Ferreyra</h5>
+                        <p style="color: gray;">CEO</p>
+                        <p class="card-text">Tengo 21 años, soy de la provincia de Buenos Aires. Me apasionan los videojuegos, y aunque mayormente juego en solitario pensé que porque debe ser asi? Y al encontrarme insastifecho con las otras aplicaciones que hay en el mercado decidí hacer algo para cambiarlo. Y con SideKick pudimos hacerlo, y esperamos que todos puedan encontrarse satisfechos con esta plataformas y aprovechen su tiempo libre jugando al maximo.</p>
+                      </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+
     
 </body>
 </html>
