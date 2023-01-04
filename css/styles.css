@@ -36,3 +36,43 @@ h1{
 .img-round {
     border-radius:150px;
 }
+
+div.inline { 
+    float:left;
+    padding: 15px;
+ }
+
+ul {
+	list-style: none;
+  }
+
+li:id1:before {
+	list-style-image: url('../img/location.png');
+}
+
+li:id2{
+	list-style-image: url('../img/smartphone.png');
+}
+
+li:id3{
+	list-style-image: url('../img/email.png');
+}
+
+.bg{
+  width: 100%;
+  z-index: 0;
+}
+
+.top{
+	padding-top: 50px;
+}
+
+.fa{
+	font-size:24px;
+	color:#1ded8c;
+}
+
+.card-img-top{
+	max-height:194px;
+	max-width:162px;
+}
