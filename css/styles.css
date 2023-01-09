@@ -9,6 +9,19 @@ html, body {
     background-color:black;
 }
 
+.navbar-custom .navbar-nav .nav-link { 
+    color: rgba(255,255,255,.5); } /* change the color of active or hovered links */ 
+
+.navbar-custom .nav-link.active .nav-link, .navbar-custom .nav-item:hover .nav-link{     
+    color: #fff; }
+
+.navbar-custom .nav-link.active{    
+    color: #fff;}
+.navbar-custom .navbar-toggler-icon {
+    border-color: rgba(255,255,255,.1);
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
 .card{
 	background-color: rgba(73, 70, 73, 0);
 	margin: 0 auto;
