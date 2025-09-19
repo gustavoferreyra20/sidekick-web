@@ -7,8 +7,8 @@
     <title>SideKick</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="img/logo.png" rel="icon" type="image/ico" />
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="../img/logo.png" rel="icon" type="image/ico" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -16,7 +16,7 @@
 <nav class="navbar navbar-expand-md navbar-custom navbar-dark fixed-top">
 <div class="container-fluid">
   <a class="navbar-brand" href="#">
-      <img src="img/logo.png" width="30" height="30" alt="icon">
+      <img src="../img/logo.png" width="30" height="30" alt="icon">
   </a>
 
   <!-- collapsible button -->
@@ -45,7 +45,7 @@
   </div>          
 </nav>
 
-    <img class="img-fluid bg top" src="img/rainy-city-view-wallpaper.png" alt="rainy-city-view-wallpaper">
+    <img class="img-fluid bg top" src="../img/rainy-city-view-wallpaper.png" alt="rainy-city-view-wallpaper">
 
     <div class="container my-5">
 
@@ -53,7 +53,7 @@
       <div class="card border-0">
         <div class="row no-gutters">
           <div class="col-xl-3 col-lg-3 col-md-12 col-xs-12">
-            <img class="img-fluid" alt="saving-time" src="img/save-time.jpg">
+            <img class="img-fluid" alt="saving-time" src="../img/save-time.jpg">
           </div>
           <div class="col-xl-9 col-lg-9 col-md-12 col-xs-12">
             <div class="card-body">
@@ -71,7 +71,7 @@
             </div>
           </div>
           <div class="col-xl-3 col-lg-3 col-md-12 col-xs-12">
-            <img class="img-fluid" alt="saving-time" src="img/coop.jpg">
+            <img class="img-fluid" alt="saving-time" src="../img/coop.jpg">
           </div>      
         </div>
       </div>
@@ -80,7 +80,7 @@
       <div class="card border-0">
         <div class="row no-gutters">
           <div class="col-xl-3 col-lg-3 col-md-12 col-xs-12">
-            <img class="img-fluid" alt="saving-time" src="img/karma.jpg">
+            <img class="img-fluid" alt="saving-time" src="../img/karma.jpg">
           </div>
           <div class="col-xl-9 col-lg-9 col-md-12 col-xs-12">
             <div class="card-body">
@@ -98,7 +98,7 @@
             </div>
           </div>
           <div class="col-xl-3 col-lg-3 col-md-12 col-xs-12">
-            <img class="img-fluid" alt="saving-time" src="img/medals.jpg">
+            <img class="img-fluid" alt="saving-time" src="../img/medals.jpg">
           </div>      
         </div>
       </div>
@@ -107,7 +107,7 @@
     </div>
 
     <div id="download">
-    <img class="img-fluid bg" src="img/separator.png" alt="separator">
+    <img class="img-fluid bg" src="../img/separator.png" alt="separator">
       
       <div class="container my-5">
         <div class="row no-gutters">
@@ -120,7 +120,7 @@
                 </div>
               </div>
               <div class="col-md-4">
-              <img class="img-fluid" alt="medal" src="img/platforms.png" >
+              <img class="img-fluid" alt="medal" src="../img/platforms.png" >
               </div>
           </div>
         </div>
@@ -129,7 +129,7 @@
         <div class="row">
           <div class="card col-xl-4 col-lg-4 col-md-4 col-xs-12  text-center">
               <div class="card-body">
-              <img class="card-img-top" src="img/windows-logo.png" alt="windows">
+              <img class="card-img-top" src="../img/windows-logo.png" alt="windows">
               <br>
               <br>
                 <a href="#" class="btn btn-primary">Descargar para Windows</a>
@@ -138,7 +138,7 @@
 
             <div class="card col-xl-4 col-lg-4 col-md-4 col-xs-12  text-center">
               <div class="card-body">
-              <img class="card-img-top" src="img/apple.png" alt="apple">
+              <img class="card-img-top" src="../img/apple.png" alt="apple">
               <br>
               <br>
                 <a href="#" class="btn btn-primary">Descargar para iOS</a>
@@ -147,7 +147,7 @@
 
             <div class="card col-xl-4 col-lg-4 col-md-4 col-xs-12  text-center">
               <div class="card-body">
-              <img class="card-img-top" src="img/android.png" alt="android">
+              <img class="card-img-top" src="../img/android.png" alt="android">
               <br>
               <br>
                 <a href="#" class="btn btn-primary">Descargar para Android</a>
@@ -163,7 +163,7 @@
           <div class="card mb-3 border-0" style="max-width: 688px;">
             <div class="row no-gutters">
               <div class="col-md-4">
-              <img src="img/gustavo.jpeg"  class="card-img" alt="gustavo" >
+              <img src="../img/gustavo.jpeg"  class="card-img" alt="gustavo" >
               </div>
               <div class="col-md-8">
               <div class="card-body">
@@ -176,7 +176,7 @@
           </div>
         </div>
 
-        <img class="img-fluid bg" src="img/separator-2.png" alt="separator">
+        <img class="img-fluid bg" src="../img/separator-2.png" alt="separator">
 
         <div class="container my-5" id="contact">
            
@@ -193,7 +193,7 @@
                     </div>
 
                         <div class="col-xl-8 col-lg-8 col-md-12 col-xs-12 inline" >
-                            <img src="img/oficinas.jpg" alt="oficinas" class="img-fluid" height="440" width="686">
+                            <img src="../img/oficinas.jpg" alt="oficinas" class="img-fluid" height="440" width="686">
                         </div>
                     </div>
                 </div>          
