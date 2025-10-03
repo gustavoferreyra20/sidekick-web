@@ -32,7 +32,7 @@
                         <a class="nav-link" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#download">Descargar</a>
+                        <a class="nav-link" href="#download">test</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#info">Info</a>
