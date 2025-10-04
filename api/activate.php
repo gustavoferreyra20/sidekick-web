@@ -14,7 +14,7 @@ if (!$token) {
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $apiUrl);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($ch, CURLOPT_TIMEOUT, 5);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 10);
     $response = curl_exec($ch);
     $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     curl_close($ch);
@@ -99,13 +99,13 @@ if (!$token) {
         }
 
         .btn-primary {
-            background: linear-gradient(90deg, #007bff, #00c6ff);
+            background: linear-gradient(90deg, #2e7d62, #1b5e44);
             border: none;
         }
 
         .btn-primary:hover {
             transform: scale(1.05);
-            box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);
+            box-shadow: 0 4px 15px rgba(27, 94, 68, 0.4);
         }
 
         .btn-secondary {
