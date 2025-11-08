@@ -70,6 +70,15 @@ if (!$token) {
             animation: fadeIn 0.8s ease-in-out;
         }
 
+        /* === Ajuste para mobile === */
+        @media (max-width: 768px) {
+            .card {
+                width: 90%;       /* más ancho en móviles */
+                max-width: 360px; /* asegura que no se pase demasiado */
+                padding: 30px;    /* más espacio interno para texto */
+            }
+        }
+
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
