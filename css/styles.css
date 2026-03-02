@@ -1,91 +1,198 @@
+/* ===== Global ===== */
 html, body {
-	font-family: 'Alegreya Sans', sans-serif;
-	overflow-x: hidden;
-	background-color: #494649;
-	color: white;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #000000, #0f2027, #1a3c2f);
+    color: #fff;
 }
 
-.navbar-custom{
-    background-color:black;
+/* ===== Navbar ===== */
+.navbar-custom {
+    background: linear-gradient(90deg, #0f2027, #1a3c2f);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
 }
 
-.navbar-custom .navbar-nav .nav-link { 
-    color: rgba(255,255,255,.5); } /* change the color of active or hovered links */ 
-
-.navbar-custom .nav-link.active .nav-link, .navbar-custom .nav-item:hover .nav-link{     
-    color: #fff; }
-
-.navbar-custom .nav-link.active{    
-    color: #fff;}
-.navbar-custom .navbar-toggler-icon {
-    border-color: rgba(255,255,255,.1);
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+.navbar-custom .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.card{
-	background-color: rgba(73, 70, 73, 0);
-	margin: 0 auto;
-	float: none;
-	margin-bottom: 10px;
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link.active {
+    color: #1ded8c;
+    transform: translateY(-2px);
 }
 
-#download{
-	background-color: black;
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
 }
 
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(29, 237, 140, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+/* ===== Cards ===== */
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+    margin: 20px auto;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.65);
+}
+
+.card.border-0 {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card.border-0:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.65);
+}
+
+/* Imágenes dentro de cards */
+.card img.img-fluid,
+.card-img-top {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Card-img-top específico */
+.card-img-top {
+    max-height: 194px;
+    max-width: 162px;
+}
+
+/* Texto dentro de cards */
+.card-body p {
+    color: #eee;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+/* ===== Download Section ===== */
+#download {
+    background-color: black;
+}
+
+/* ===== Botones ===== */
 .btn {
-	background-color: #1ded8c;
-	border: #1ded8c;
-	color: black;
+    background-color: #1ded8c;
+    border: none;
+    color: black;
 }
 
-h1{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	text-align: center;
+.btn-primary {
+    background: linear-gradient(90deg, #2e7d62, #1b5e44);
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50px;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    border: none;
 }
 
+.btn-primary:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(27, 94, 68, 0.4);
+}
+
+/* ===== Headings ===== */
+h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/* ===== Imágenes redondas ===== */
 .img-round {
-    border-radius:150px;
+    border-radius: 150px;
 }
 
-div.inline { 
-    float:left;
+/* ===== Misc ===== */
+div.inline {
+    float: left;
     padding: 15px;
- }
+}
 
 ul {
-	list-style: none;
-  }
-
-li:id1:before {
-	list-style-image: url('../img/location.png');
+    list-style: none;
 }
 
-li:id2{
-	list-style-image: url('../img/smartphone.png');
+/* ===== Contact List ===== */
+.contact-list {
+    list-style: none;
+    padding: 0;
 }
 
-li:id3{
-	list-style-image: url('../img/email.png');
+.contact-list li {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #eee;
+    display: flex;
+    align-items: center;
 }
 
-.bg{
-  width: 100%;
-  z-index: 0;
+.contact-list li i {
+    color: #1ded8c;
+    font-size: 24px;
+    margin-right: 10px;
 }
 
-.top{
-	padding-top: 50px;
+/* ===== Office Image ===== */
+.office-img {
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 100%;
 }
 
-.fa{
-	font-size:24px;
-	color:#1ded8c;
+.office-img:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.6);
 }
 
-.card-img-top{
-	max-height:194px;
-	max-width:162px;
+/* ===== Backgrounds ===== */
+.bg {
+    width: 100%;
+    z-index: 0;
+}
+
+.top {
+    padding-top: 50px;
+}
+
+/* ===== Icons ===== */
+.fa {
+    font-size: 24px;
+    color: #1ded8c;
 }
