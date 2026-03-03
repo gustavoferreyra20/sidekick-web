@@ -196,12 +196,24 @@
       <div class="col-md-8">
         <div class="card-body">
           <h5 class="card-title">Gustavo Ferreyra</h5>
-          <p style="color: gray;">CEO</p>
-          <p class="card-text">Tengo 21 años, soy de la provincia de Buenos Aires. Me apasionan los videojuegos, y
-            aunque mayormente juego en solitario pensé que porque debe ser asi? Y al encontrarme insastifecho con las
-            otras aplicaciones que hay en el mercado decidí hacer algo para cambiarlo. Y con SideKick pudimos hacerlo, y
-            esperamos que todos puedan encontrarse satisfechos con esta plataformas y aprovechen su tiempo libre jugando
-            al maximo.</p>
+          <p style="color: gray;">Co CEO</p>
+          <p class="card-text">Emprendedor tecnológico apasionado por la innovación en la industria gaming. Fundé SideKick tras identificar las limitaciones de las plataformas existentes para conectar jugadores. Mi visión es transformar la experiencia de juego, creando soluciones que maximicen la satisfacción de los usuarios y optimicen su tiempo de entretenimiento.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="card mb-3 border-0" style="max-width: 688px;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="../img/leonardo.jpeg" class="card-img" alt="leonardo">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Leonardo Di Primo</h5>
+          <p style="color: gray;">Co CEO</p>
+          <p class="card-text">Especialista en estrategia de negocio y desarrollo tecnológico. Co-fundador de SideKick con enfoque en la escalabilidad y crecimiento sostenible de la plataforma. Mi experiencia se centra en construir ecosistemas tecnológicos que generen valor real para las comunidades de jugadores a nivel global.</p>
         </div>
       </div>
     </div>
@@ -225,6 +237,15 @@
     </div>
   </div>
 </div>
+
+<!-- Footer -->
+<footer class="bg-dark text-center py-3 mt-5">
+  <div class="container">
+    <p class="text-light mb-0">
+      &copy; 2026 SideKick. Todos los derechos reservados.
+    </p>
+  </div>
+</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
