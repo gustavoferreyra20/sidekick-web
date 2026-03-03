@@ -226,9 +226,8 @@
   <div class="row align-items-center">
     <div class="col-xl-4 col-lg-4 col-md-12 mb-4">
       <ul class="contact-list">
-        <li><i class="fa fa-street-view"></i> José María Paz 2039, Buenos Aires</li>
-        <li><i class="fa fa-at"></i> ferreyragustavo847@gmail.com</li>
-        <li><i class="fa fa-phone"></i> 11 2551-0623</li>
+        <li><i class="fa fa-at"></i>gustavo.ferreyra@davinci.edu.ar</li>
+        <li><i class="fa fa-at"></i>roberto.diprimo@davinci.edu.ar</li>
       </ul>
     </div>
 
